@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Bitbake Syntax",
+		"CMake",
+		"Diffy",
+		"GitGutter",
+		"HTMLBeautify",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-bashate"
+	]
+}
