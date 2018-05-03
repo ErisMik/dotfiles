@@ -1,0 +1,25 @@
+[Default Applications]
+x-scheme-handler/http=userapp-Firefox-QOHO8Y.desktop
+x-scheme-handler/https=userapp-Firefox-QOHO8Y.desktop
+x-scheme-handler/ftp=userapp-Firefox-QOHO8Y.desktop
+x-scheme-handler/chrome=userapp-Firefox-QOHO8Y.desktop
+text/html=userapp-Firefox-QOHO8Y.desktop
+application/x-extension-htm=userapp-Firefox-QOHO8Y.desktop
+application/x-extension-html=userapp-Firefox-QOHO8Y.desktop
+application/x-extension-shtml=userapp-Firefox-QOHO8Y.desktop
+application/xhtml+xml=userapp-Firefox-QOHO8Y.desktop
+application/x-extension-xhtml=userapp-Firefox-QOHO8Y.desktop
+application/x-extension-xht=userapp-Firefox-QOHO8Y.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-Firefox-QOHO8Y.desktop;userapp-Firefox-KOS5BZ.desktop;
+x-scheme-handler/https=userapp-Firefox-QOHO8Y.desktop;userapp-Firefox-KOS5BZ.desktop;
+x-scheme-handler/ftp=userapp-Firefox-QOHO8Y.desktop;userapp-Firefox-KOS5BZ.desktop;
+x-scheme-handler/chrome=userapp-Firefox-QOHO8Y.desktop;userapp-Firefox-KOS5BZ.desktop;
+text/html=userapp-Firefox-QOHO8Y.desktop;userapp-Firefox-KOS5BZ.desktop;
+application/x-extension-htm=userapp-Firefox-QOHO8Y.desktop;userapp-Firefox-KOS5BZ.desktop;
+application/x-extension-html=userapp-Firefox-QOHO8Y.desktop;userapp-Firefox-KOS5BZ.desktop;
+application/x-extension-shtml=userapp-Firefox-QOHO8Y.desktop;userapp-Firefox-KOS5BZ.desktop;
+application/xhtml+xml=userapp-Firefox-QOHO8Y.desktop;userapp-Firefox-KOS5BZ.desktop;
+application/x-extension-xhtml=userapp-Firefox-QOHO8Y.desktop;userapp-Firefox-KOS5BZ.desktop;
+application/x-extension-xht=userapp-Firefox-QOHO8Y.desktop;userapp-Firefox-KOS5BZ.desktop;

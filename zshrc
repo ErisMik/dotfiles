@@ -3,14 +3,13 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/emikulin/.oh-my-zsh
+export ZSH=/home/ericm/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 
 ZSH_THEME="agnoster"
-# ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -87,9 +86,15 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-alias aptup='sudo apt update && sudo apt-file update && sudo apt upgrade -y'
-alias gitfresh='git submodule foreach '"'"'pwd && git checkout master && git pull'"'"''
+# Export terminal emulator for i3
+export TERMINAL=termite
 
+# Export VIM as default editor
+export EDITOR='vim'
+export VISUAL='vim'
+
+# Remove 'rm' double verification
+RM_STAR_SILENT="true"
 
 # Custom command for changing dirs
 function cdr() {
@@ -99,3 +104,6 @@ function cdr() {
         local cdr=$1
         cd "${PWD/\/$cdr\/*//$cdr}"
 }
+
+# Add the rbenv shims to the path
+export PATH="$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH"
