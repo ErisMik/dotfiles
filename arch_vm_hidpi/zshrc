@@ -107,3 +107,5 @@ function cdr() {
 
 # Add the rbenv shims to the path
 export PATH="$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH"
+
+# Add TheFuck command evaluation

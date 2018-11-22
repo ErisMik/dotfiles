@@ -1,4 +1,6 @@
 {
+	"always_show_minimap_viewport": true,
+	"dpi_scale": 2.0,
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"ignored_packages":
 	[
