@@ -1,0 +1,8 @@
+[branch]
+    autosetuprebase = always
+[user]
+	email = ericm99@gmail.com
+	name = Eric Mikulin
+[alias]
+	ll = log --graph --decorate --pretty=oneline --abbrev-commit
+	la = log --graph --decorate --pretty=oneline --abbrev-commit --all
